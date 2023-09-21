@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1500px;
+    display: flex;
+    margin: 0 auto;
+    background-color:white;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: white;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(233, 236, 236);
+    min-height: 300px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer  {
+    background-color: rgb(129, 213, 235);
+    min-height: 100px;
+}
+.logoroda {
+    display: flex;
+  flex-direction: row; /* row é padrão */
+  justify-content: center;
+}
